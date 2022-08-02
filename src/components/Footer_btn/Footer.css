@@ -1,0 +1,77 @@
+.btn_footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.btn_default, .btn_save{
+    width: 213px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.btn_yes_no{
+    width: 105px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    background: #3861FB;
+    color: #fdfdfd;
+    margin-left: 15px;
+}
+
+.btn_yes_no:hover{
+    background: #04347e;
+    color: #e9edf1;
+}
+
+.btn_default{
+    background: #F0F6FF;
+    color: #2785E2;
+}
+
+.btn_default:hover{
+    background: #9e9e9f;
+    color: #fdfdfd;
+}
+
+.btn_save{
+    background: #3861FB;
+    color: #fdfdfd;
+}
+
+.btn_save:hover{
+    background: #04347e;
+    color: #e9edf1;
+}
+
+@media (max-width:1450px){
+    .btn_default, .btn_save{
+        width: 180px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1450px){
+    .btn_footer{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+}
