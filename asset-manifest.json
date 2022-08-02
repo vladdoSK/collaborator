@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/collaborator/static/css/main.0c0087ff.css",
+    "main.js": "/collaborator/static/js/main.248ff2c9.js",
+    "index.html": "/collaborator/index.html",
+    "main.0c0087ff.css.map": "/collaborator/static/css/main.0c0087ff.css.map",
+    "main.248ff2c9.js.map": "/collaborator/static/js/main.248ff2c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c0087ff.css",
+    "static/js/main.248ff2c9.js"
+  ]
+}
